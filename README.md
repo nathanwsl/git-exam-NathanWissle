@@ -117,7 +117,4 @@ Vous devez :
 **(4 points)** Les fonctionnalités **url** et/ou **color** sont désormais terminées et intégrées dans la branche `dev`. On souhaite déployer ces nouvelles fonctionnalités sur la branche principale pour que les utilisateurs aient accès à cette nouvelle fonctionnalité. Intégrez ces fonctionnalités dans `main` en résolvant les conflits avec la commande `git merge`.
 
 ## **Exercice 6**
-**(3 points)** Faite une modification aléatoire au `README.md`, et faites un commit. Malheureusement, après une longue discussion avec vos collègues sur le contenu que vous avez ajouté et qui est désormais visible par tout le monde, et le non respect des bonnes pratiques git en ne créant pas de branche temporaire pour s’assurer que vos changements ne cassent rien pour les utilisateurs, on vous demande de revenir sur vos changements. Votre tâche est de :
-
-1. Revenir à l'état précédent avec `git reset` ou `git revert`.
-2. Expliquer la différence entre les deux commandes.
+**(3 points)** LALALALALALALALALALALALALAALLALALALALALALALALALALALL
