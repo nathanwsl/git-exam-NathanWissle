@@ -121,3 +121,6 @@ Vous devez :
 
 1. Revenir à l'état précédent avec `git reset` ou `git revert`.
 2. Expliquer la différence entre les deux commandes.
+
+
+La commande, git reset efface l'historique, alors que git revert efface un commit precis, c'est beaucoup plus propre c'est pourquoi je l'ai choisit pour cet Exercice.
