@@ -123,4 +123,10 @@ Vous devez :
 2. Expliquer la différence entre les deux commandes.
 
 
-La commande, git reset efface l'historique, alors que git revert efface un commit precis, c'est beaucoup plus propre c'est pourquoi je l'ai choisit pour cet Exercice.
+La commande git reset annule un ou plusieurs commits en réécrivant l’historique du dépôt.
+Cela fait comme si le commit n’avait jamais existé. On l’utilise seulement quand les commits n’ont pas encore été partagés avec d’autres personnes.
+
+La commande git revert crée un nouveau commit qui annule les changements du commit précédent sans modifier l’historique.
+Le commit d’origine reste visible, mais un nouveau commit vient “l’inverser”. C’est la méthode recommandée lorsqu’on travaille en équipe et que le commit a déjà été poussé.
+
+J’ai utilisé git revert parce que cette commande permet d’annuler un commit sans modifier l’historique du dépôt. Comme mon commit avait déjà été rendu visible aux autres membres de l’équipe, il était important de préserver l’historique et d’éviter toute réécriture qui aurait pu créer des conflits
